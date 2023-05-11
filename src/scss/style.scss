@@ -1,0 +1,14 @@
+@import "default";
+@import "fonts";
+
+.wrap {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    padding: 0 20px
+}
+
+@import "header";
