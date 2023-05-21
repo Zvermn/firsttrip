@@ -1,0 +1,26 @@
+.what-interesting {
+    padding-left: 100px;
+
+
+    .what-interesting-title {}
+
+    .what-interesting-list {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        .what-interesting-item {
+            flex: 1 1 380px;
+            margin-bottom: 50px;
+            padding-right: 30px;
+        }
+
+        .icon-connection {
+            max-width: 154px;
+            height: 25px;
+            background-image: url(/css/icon/connections.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+}

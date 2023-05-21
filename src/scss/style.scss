@@ -12,3 +12,71 @@ body {
 }
 
 @import "header";
+@import "about";
+@import "what-interesting";
+@import "living-house";
+@import "reviews";
+@import "footer";
+
+H1 {
+    font-family: 'TildaSans';
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: normal;
+}
+
+H2 {
+    font-family: 'TildaSans';
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: normal;
+    margin-bottom: 65px;
+}
+
+H3 {
+    font-family: 'TildaSans';
+    font-weight: 500;
+    font-size: 1.4rem;
+    font-style: normal;
+    margin-bottom: 25px;
+}
+
+h4 {
+    font-family: 'TildaSans';
+    font-weight: 600;
+    font-size: 1rem;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+p,
+li {
+    font-family: 'TildaSans';
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+}
+
+p {
+    margin-bottom: 30px;
+    line-height: 1.3;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.birdth-wrap {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.birdth {
+    position: absolute;
+    width: 16vw;
+    height: 10vh;
+    right: 72vw;
+    top: -32vw
+}
+
+@import "media";

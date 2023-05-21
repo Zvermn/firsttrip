@@ -1,0 +1,30 @@
+.about {
+    .announcement {
+        height: 360px;
+        margin-bottom: 70px;
+        border: 1px solid black;
+    }
+
+    .wellcome {
+        padding-left: 100px;
+
+        .wellcome-content {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+
+            .wellcome-text {
+                flex: 0 1 720px;
+                padding-right: 30px;
+            }
+        }
+    }
+}
+
+.weather-bar {
+    width: 312px;
+    height: 241px;
+    border: 1px solid black;
+    display: inline-block;
+    align-self: center;
+}

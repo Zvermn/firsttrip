@@ -1,0 +1,45 @@
+.reviews {
+    padding-left: 100px;
+
+    .reviews-link {
+        display: block;
+        width: fit-content;
+        font-family: 'TildaSans';
+        font-weight: 700;
+        font-size: 1rem;
+        font-style: normal;
+        padding: 15px 45px;
+        color: white;
+        background-color: #B4AB00;
+        margin: 0 auto;
+
+    }
+}
+
+.reviews-list {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    .reviews-item {
+        flex: 0 1 350px;
+        padding-right: 20px;
+
+        p {
+            font-family: 'TildaSans';
+            font-weight: 400;
+            font-size: 1rem;
+            font-style: italic;
+        }
+
+    }
+}
+
+.reviews-icon::before {
+    content: url(/css/icon/after.svg);
+    float: left;
+    position: relative;
+    left: -30px;
+    margin-right: -30px;
+}

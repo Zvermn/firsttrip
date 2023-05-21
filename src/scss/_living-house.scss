@@ -1,0 +1,46 @@
+.living-house {
+    padding-left: 100px;
+    position: relative;
+    margin-bottom: 200px;
+
+    .living-house-link {
+        display: block;
+        width: fit-content;
+        font-family: 'TildaSans';
+        font-weight: 700;
+        font-size: 1rem;
+        font-style: normal;
+        padding: 15px 45px;
+        color: white;
+        background-color: #B4AB00;
+        margin: 0 auto;
+    }
+
+    .living-house-content {
+        max-width: 750px;
+        width: 100%;
+    }
+
+    .living-house-block-wrap {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    .living-house-content.text-about-photo {
+        flex: 0 1 550px;
+    }
+
+    .living-house-img-block {
+        flex: 1 1;
+        text-align: right;
+        min-width: 455px;
+    }
+
+    .living-house-img-block img {
+        width: unset;
+        padding-bottom: 5px;
+    }
+
+}

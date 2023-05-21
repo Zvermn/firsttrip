@@ -1,11 +1,10 @@
 header {
     border-bottom: 1px solid black;
     width: 100%;
+    margin-top: 100px;
 
     .header-content-wrap {
         padding: 0 0 20px 110px;
-
-
     }
 
     .header-top-content {
@@ -13,32 +12,65 @@ header {
         flex-flow: row wrap;
         align-items: flex-end;
         justify-content: flex-end;
+        margin-bottom: 70px;
 
         .header-top-item {
             flex-grow: 1;
         }
 
-        .header-title {}
+        .header-title {
+            line-height: 0.7;
+
+            small {
+                font-size: 1rem;
+            }
+        }
 
         .header-tel-link {
             text-align: right;
+            font-family: 'TildaSans';
+            font-weight: 700;
+            font-size: 1rem;
+            font-style: normal;
+            padding: 0 20px;
+
+            a {
+                color: black;
+            }
+
         }
 
         .header-btn-popap {
             text-align: right;
 
-            .input-popap {}
+            .input-popap {
+                font-family: 'TildaSans';
+                font-weight: 700;
+                font-size: 0.7rem;
+                font-style: normal;
+                text-transform: uppercase;
+                padding: 10px 40px;
+                color: white;
+                background-color: #B4AB00;
+            }
         }
     }
-
-
 
     .header-menu-content {
 
         .header-menu-list {
             list-style: none;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+
+            li {
+                display: inline-block;
+                padding: 10px 0 10px 0;
+                text-align: right;
+                flex-shrink: 0;
+                margin-right: auto;
+            }
         }
     }
-
-
 }

@@ -1,0 +1,50 @@
+footer {
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.footer-content-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 45px 0 45px 100px;
+}
+
+.base-list-item,
+.content-info-list-item {
+    padding: 10px 20px 10px 0;
+
+}
+
+.base-list-item a,
+.content-info-list-item a,
+.footer-mail-link {
+    color: #00C2DD;
+}
+
+.footer-content-base {
+    padding: 0 20px;
+}
+
+.footer-tel-link,
+.footer-mail-link {
+    display: block;
+    padding: 10px 0;
+    font-family: 'TildaSans';
+    font-style: normal;
+}
+
+.footer-tel-link {
+    color: black;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.footer-mail-link {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.footer-content-contact {
+    margin-bottom: 35px;
+}
