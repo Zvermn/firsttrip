@@ -5,10 +5,22 @@
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    height: inherit;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+    margin-top: auto;
 }
 
 body {
-    padding: 0 20px
+    padding: 0 20px;
 }
 
 @import "header";
@@ -17,6 +29,11 @@ body {
 @import "living-house";
 @import "reviews";
 @import "footer";
+@import "actions";
+@import "fun";
+@import "parents-vs-children";
+@import "reviews-page";
+@import "news";
 
 H1 {
     font-family: 'TildaSans';
@@ -50,7 +67,8 @@ h4 {
 }
 
 p,
-li {
+li,
+span {
     font-family: 'TildaSans';
     font-weight: 400;
     font-size: 1rem;
@@ -64,6 +82,18 @@ p {
 
 section {
     margin-bottom: 100px;
+}
+
+.input-popap {
+    font-family: 'TildaSans';
+    font-weight: 700;
+    font-size: 0.7rem;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    color: white;
+    background-color: #B4AB00;
+    border-radius: 6px;
 }
 
 .birdth-wrap {

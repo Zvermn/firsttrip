@@ -1,0 +1,53 @@
+.fun {
+    padding-left: 100px;
+
+    p {
+        max-width: 750px;
+        width: 100%;
+    }
+
+    margin-bottom: 50px;
+}
+
+.excursions {
+
+
+    span {
+        display: inline-block;
+        margin-bottom: 35px;
+    }
+
+}
+
+.excursions-list {
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.excursions-list li {
+    list-style-type: disc;
+    padding: 10px;
+}
+
+.block-photo-img img {
+    width: unset;
+    padding: 0 10px 10px 0;
+}
+
+.excursions-photo-link {
+    font-family: 'TildaSans';
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+    text-decoration: underline;
+    color: black;
+    padding: 10px 10px 10px 0;
+}
+
+.excursions-block-photo {
+    max-width: 1070px;
+}
+
+.block-photo-link {
+    text-align: right;
+}

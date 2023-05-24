@@ -1,0 +1,106 @@
+.actions,
+.news {
+    padding-left: 100px;
+}
+
+.action-img,
+.news-img {
+    width: unset;
+    flex: 0 0 211px;
+}
+
+.date-action {
+    font-family: 'TildaSans';
+    font-weight: 700;
+    font-size: 1rem;
+    font-style: normal;
+    color: #B4AB00;
+
+}
+
+.action-item,
+.news-item {
+    max-width: 1080px;
+    width: 100%;
+    background-color: #F8F8F8;
+    position: relative;
+    padding: 45px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.action-item::after {
+    content: url(/css/icon/round.png);
+    width: 141px;
+    height: 141px;
+    position: absolute;
+    top: calc(50% - 70.5px);
+    right: -115px;
+}
+
+.action-item::before {
+    content: url(/css/icon/round.png);
+    width: 141px;
+    height: 141px;
+    position: absolute;
+    top: calc(50% - 70.5px);
+    left: -115px;
+}
+
+.action-content,
+.news-content {
+    flex: 0 1 700px;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 20px;
+}
+
+.action-title {
+    flex: 1 1 50%;
+}
+
+.date-action {
+    flex: 1 1 50%;
+    text-align: center;
+}
+
+.action-text,
+.news-text {
+    flex: 1 1;
+}
+
+.paginations {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.pagination-link {
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    display: block;
+}
+
+.pagination-item {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    padding: 6px;
+    text-align: center;
+    background-color: #00C2DD;
+    border-radius: 3px;
+}
+
+.pagination-item.active {
+    background-color: #F4F4F4;
+}
+
+.pagination-item:last-child {
+    margin-left: 20px;
+}

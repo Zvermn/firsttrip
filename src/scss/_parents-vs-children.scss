@@ -1,0 +1,56 @@
+.parents-vs-children {
+    margin-bottom: 50px;
+    padding-left: 110px;
+    position: relative;
+
+    p,
+    h2,
+    .subtitle {
+        max-width: 750px;
+        width: 100%;
+    }
+
+    h2 {
+        margin-bottom: 25px;
+    }
+}
+
+.subtitle {
+    display: block;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 65px;
+}
+
+.parents-vs-children-img {
+    width: unset;
+    display: inline;
+    float: right;
+    padding-left: 20px;
+}
+
+.bread-crumbs {
+    margin-top: -30px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+
+.bread-crumbs li {
+    color: #BDBDBD;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.bread-crumbs li:first-child {
+    text-decoration: underline;
+}
+
+.bread-crumbs li.active {
+    color: #B4AB00;
+}
+
+.bread-crumbs li.active::before {
+    content: "\00a0> ";
+    color: #B4AB00;
+}

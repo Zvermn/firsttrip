@@ -14,7 +14,7 @@
                 <li class="base-list-item"><a href="#">Стоимость</a></li>
                 <li class="base-list-item"><a href="#">Фотогалерея</a></li>
                 <li class="base-list-item"><a href="#">Благодарности</a></li>
-                <li class="base-list-item"><a href="#">Отзывы</a></li>
+                <li class="base-list-item"><a href="/reviews-page.php">Отзывы</a></li>
             </ul>
         </div>
         <div class="footer-content-info">
@@ -22,7 +22,7 @@
             <ul class="footer-content-info-list">
                 <li class="content-info-list-item"><a href="#">Об Ольхоне</a></li>
                 <li class="content-info-list-item"><a href="#">Расписание парома</a></li>
-                <li class="content-info-list-item"><a href="#">Новости</a></li>
+                <li class="content-info-list-item"><a href="/news.php">Новости</a></li>
             </ul>
         </div>
     </div>

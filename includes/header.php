@@ -13,9 +13,9 @@
         </div>
         <nav class="header-menu-content">
             <ul class="header-menu-list">
-                <li>О базе отдыха</li>
-                <li>События</li>
-                <li>Развлечения</li>
+                <li><a href="/index.php">О базе отдыха</a></li>
+                <li><a href="/actions.php">События</a></li>
+                <li><a href="/fun.php">Развлечения</a></li>
                 <li>Условия проживания</li>
                 <li>Как добраться</li>
                 <li>Контакты</li>

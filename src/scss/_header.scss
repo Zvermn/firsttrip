@@ -2,6 +2,7 @@ header {
     border-bottom: 1px solid black;
     width: 100%;
     margin-top: 100px;
+    margin-bottom: 60px;
 
     .header-content-wrap {
         padding: 0 0 20px 110px;
@@ -43,16 +44,7 @@ header {
         .header-btn-popap {
             text-align: right;
 
-            .input-popap {
-                font-family: 'TildaSans';
-                font-weight: 700;
-                font-size: 0.7rem;
-                font-style: normal;
-                text-transform: uppercase;
-                padding: 10px 40px;
-                color: white;
-                background-color: #B4AB00;
-            }
+
         }
     }
 
