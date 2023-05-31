@@ -31,9 +31,14 @@ body {
 @import "footer";
 @import "actions";
 @import "fun";
-@import "parents-vs-children";
+@import "some-action";
 @import "reviews-page";
 @import "news";
+@import "some-news";
+@import "contacts";
+@import "excellent";
+@import "island";
+@import "howtoget";
 
 H1 {
     font-family: 'TildaSans';
@@ -84,7 +89,9 @@ section {
     margin-bottom: 100px;
 }
 
-.input-popap {
+.input-popap,
+.link-back-news,
+.link-main-page {
     font-family: 'TildaSans';
     font-weight: 700;
     font-size: 0.7rem;
@@ -94,6 +101,7 @@ section {
     color: white;
     background-color: #B4AB00;
     border-radius: 6px;
+    display: inline-block;
 }
 
 .birdth-wrap {

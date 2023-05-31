@@ -19,7 +19,6 @@
                         <li>Водная экскурсия по побережью</li>
                         <li>Конная прогулка</li>
                     </ul>
-
                     <div class="excursions-block-photo">
                         <div class="block-photo-img">
                             <img src="/img/excursion1.jpg" alt="" class="excursion-img">
@@ -29,7 +28,7 @@
                             <img src="/img/excursion5.jpg" alt="" class="excursion-img">
                         </div>
                         <div class="block-photo-link">
-                            <a href="#" class="excursions-photo-link">Смотреть больше фотографий</a>
+                            <a href="/photogallery.php" class="excursions-photo-link">Смотреть больше фотографий</a>
                         </div>
                     </div>
                 </section>

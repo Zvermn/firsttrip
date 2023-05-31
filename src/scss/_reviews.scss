@@ -1,19 +1,22 @@
 .reviews {
     padding-left: 100px;
 
-    .reviews-link {
-        display: block;
-        width: fit-content;
-        font-family: 'TildaSans';
-        font-weight: 700;
-        font-size: 1rem;
-        font-style: normal;
-        padding: 15px 45px;
-        color: white;
-        background-color: #B4AB00;
-        margin: 0 auto;
 
-    }
+}
+
+.reviews-link,
+.living-house-link {
+    display: block;
+    width: fit-content;
+    font-family: 'TildaSans';
+    font-weight: 700;
+    font-size: 1rem;
+    font-style: normal;
+    padding: 15px 45px;
+    color: white;
+    background-color: #B4AB00;
+    margin: 0 auto;
+    border-radius: 6px;
 }
 
 .reviews-list {

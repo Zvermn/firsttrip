@@ -1,4 +1,5 @@
-.parents-vs-children {
+.some-action,
+.some-news {
     margin-bottom: 50px;
     padding-left: 110px;
     position: relative;
@@ -13,6 +14,10 @@
     h2 {
         margin-bottom: 25px;
     }
+
+    p {
+        margin-bottom: 65px;
+    }
 }
 
 .subtitle {
@@ -22,7 +27,8 @@
     margin-bottom: 65px;
 }
 
-.parents-vs-children-img {
+.some-action-img,
+.some-news-img {
     width: unset;
     display: inline;
     float: right;

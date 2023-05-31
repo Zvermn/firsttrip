@@ -6,107 +6,14 @@
     }
 }
 
-@media screen and (max-width: 480px) {
-
-    html,
-    body {
-        font-size: 16px;
-    }
-
-    .reviews .reviews-link {
-        padding: 15px 40px;
-    }
-
-    .living-house .living-house-link {
-        padding: 15px 40px;
-    }
-
-    .reviews-list .reviews-item p {
-        padding-left: 10px;
-    }
-
-    .date-action {
-        order: 0;
-        flex-basis: 100%;
-    }
-
-    .action-title {
-        order: 1;
-        flex-basis: 100%;
+@media screen and (max-width: 1165px) {
+    .living-house .living-house-img-block {
         text-align: center;
     }
 
-    .action-text {
-        order: 2;
+    .living-house .living-house-content.text-about-photo {
+        flex: unset;
     }
-
-    .action-content {
-        padding: 0 5px;
-    }
-
-    .paginations {
-        margin-bottom: 50px;
-    }
-
-    .pagination-item {
-        width: 25px;
-        height: 25px;
-        margin-right: 15px;
-        padding: 5px;
-    }
-
-    .excursions-list {
-        padding-left: 20px;
-    }
-
-    .parents-vs-children-img {
-        display: block;
-        float: unset;
-        padding-left: 0;
-        margin: 0 auto;
-    }
-
-    .review-item {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .review-img {
-        margin-bottom: 20px;
-        padding-right: 0;
-    }
-
-    .review-item-text {
-        padding-left: 20px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    h2 {
-        margin-bottom: 40px;
-    }
-
-    h3 {
-        margin-bottom: 18px;
-    }
-
-    section {
-        margin-bottom: 50px;
-    }
-
-    .living-house .living-house-img-block {
-        min-width: unset;
-    }
-
-    .living-house .living-house-block-wrap {
-        margin-bottom: 50px;
-    }
-
-    .review-item-text::before {
-        content: url(/css/icon/before-mini.svg);
-        left: -30px;
-    }
-
 }
 
 @media screen and (max-width : 1024px) {
@@ -166,69 +73,31 @@
 
     .reviews-guests,
     .thanks,
-    .parents-vs-children,
+    .some-action,
+    .some-news,
     .fun,
     .actions,
-    .news {
+    .news,
+    .contacts,
+    .excellent,
+    .about-island,
+    .how-to-get {
         padding-left: unset;
     }
 
     .review-item-text {
         margin-left: 0;
     }
-}
 
-@media screen and (max-width: 768px) {
-    .footer-content-base {
-        display: flex;
-        flex-flow: row wrap;
-        padding: 0;
-        margin-bottom: 35px;
-    }
-
-    .footer-title {
-        flex: 1 1 100%;
-    }
-
-    .base-list-item {
-        display: inline-block;
-    }
-
-    .block-photo-link,
-    .block-photo-img {
+    .about-island-photo {
         text-align: center;
+
+        img {
+            padding: 15px;
+        }
     }
 
 }
-
-@media screen and (max-width: 700px) {
-
-    .action-item,
-    .news-item {
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 20px;
-    }
-
-    .action-img,
-    .news-img {
-        margin-bottom: 20px;
-    }
-
-
-}
-
-@media screen and (max-width: 1165px) {
-    .living-house .living-house-img-block {
-        text-align: center;
-    }
-
-    .living-house .living-house-content.text-about-photo {
-        flex: unset;
-    }
-}
-
-
 
 @media screen and (max-width: 890px) {
     header {
@@ -263,6 +132,64 @@
 }
 
 @media screen and (max-width: 768px) {
+    .footer-content-base {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0;
+        margin-bottom: 35px;
+    }
+
+    .footer-title {
+        flex: 1 1 100%;
+    }
+
+    .base-list-item {
+        display: inline-block;
+    }
+
+    .block-photo-link,
+    .block-photo-img {
+        text-align: center;
+    }
+
+    h2 {
+        margin-bottom: 40px;
+    }
+
+    h3 {
+        margin-bottom: 18px;
+    }
+
+    section {
+        margin-bottom: 50px;
+    }
+
+    .excellent {
+        margin-bottom: 50px;
+
+        img {
+            float: unset;
+            margin: 0 auto -50px auto;
+            max-width: 355px;
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+    }
+
+    .living-house .living-house-img-block {
+        min-width: unset;
+    }
+
+    .living-house .living-house-block-wrap {
+        margin-bottom: 50px;
+    }
+
+    .review-item-text::before {
+        content: url(/css/icon/before-mini.svg);
+        left: -30px;
+    }
+
     .what-interesting {
         .what-interesting-list {
             .what-interesting-item {
@@ -271,6 +198,23 @@
             }
         }
     }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .action-item,
+    .news-item {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .action-img,
+    .news-img {
+        margin-bottom: 20px;
+    }
+
 
 }
 
@@ -291,11 +235,7 @@
                 text-align: center;
             }
         }
-    }
-}
 
-@media screen and (max-width: 600px) {
-    header {
         .header-menu-content {
             .header-menu-list {
                 justify-content: center;
@@ -317,5 +257,104 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    html,
+    body {
+        font-size: 16px;
+    }
+
+    .reviews .reviews-link {
+        padding: 15px 40px;
+    }
+
+    .living-house .living-house-link {
+        padding: 15px 40px;
+    }
+
+    .reviews-list .reviews-item p {
+        padding-left: 10px;
+    }
+
+    .date-action {
+        order: 0;
+        flex-basis: 100%;
+    }
+
+    .action-title {
+        order: 1;
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .action-text {
+        order: 2;
+    }
+
+    .action-content {
+        padding: 0 5px;
+    }
+
+    .paginations {
+        margin-bottom: 50px;
+    }
+
+    .pagination-item {
+        width: 25px;
+        height: 25px;
+        margin-right: 15px;
+        padding: 5px;
+    }
+
+    .excursions-list {
+        padding-left: 20px;
+    }
+
+    .some-action-img,
+    .some-news-img {
+        display: block;
+        float: unset;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+    .review-item {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .review-img {
+        margin-bottom: 20px;
+        padding-right: 0;
+    }
+
+    .review-item-text {
+        padding-left: 20px;
+    }
+
+    .about-island-photo img {
+        padding: 10px;
+    }
+
+    .about-island-photo {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .about-island-photo picture:first-child {
+        align-self: flex-start;
+    }
+
+    .about-island-photo picture:last-child {
+        align-self: flex-end;
+    }
+}
+
+@media screen and (min-width: 0) and (max-width: 360px) {
+    .excellent img {
+        max-width: 255px;
     }
 }

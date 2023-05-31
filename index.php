@@ -119,7 +119,7 @@
                             </p>
                         </li>
                     </ul>
-                    <a href="#" class="reviews-link">Смотреть книгу отзывов</a>
+                    <a href="/reviews-page.php" class="reviews-link">Смотреть книгу отзывов</a>
                 </section>
             </article>
         </main>
