@@ -4,7 +4,7 @@
 
 <body>
     <div class="wrap">
-    <?php include 'includes/header.php';?>
+        <?php include 'includes/header.php';?>
         <main>
             <article class="about-island">
                 <h2 class="about-island-title">Достопримечательности острова Ольхон</h2>
@@ -18,21 +18,29 @@
                         западной. Около Шаманской пещеры на скалах сохранились древние надписи на тибетском и
                         монгольском языках.</p>
                     <div class="about-island-photo">
-                        <picture>
-                            <source media="(max-width:480px)" srcset="/img/about-island-mini.jpg" width="200"
-                                height="159">
-                            <img src="/img/about-island.jpg" alt="" width="308" height="245">
-                        </picture>
-                        <picture>
-                            <source media="(max-width:480px)" srcset="/img/about-island2-mini.jpg" width="200"
-                                height="159">
-                            <img src="/img/about-island2.jpg" alt="" width="308" height="245">
-                        </picture>
-                        <picture>
-                            <source media="(max-width:480px)" srcset="/img/about-island3-mini.jpg" width="200"
-                                height="159">
-                            <img src="/img/about-island3.jpg" alt="" width="308" height="245">
-                        </picture>
+                        <ul class="about-island-wrap-photo">
+                            <li><a href="#">
+                                    <picture>
+                                        <source media="(max-width:480px)" srcset="/img/about-island-mini.jpg"
+                                            width="200" height="159">
+                                        <img src="/img/about-island.jpg" alt="" width="308" height="245">
+                                    </picture>
+                                </a></li>
+                            <li><a href="#">
+                                    <picture>
+                                        <source media="(max-width:480px)" srcset="/img/about-island2-mini.jpg"
+                                            width="200" height="159">
+                                        <img src="/img/about-island2.jpg" alt="" width="308" height="245">
+                                    </picture>
+                                </a></li>
+                            <li><a href="#">
+                                    <picture>
+                                        <source media="(max-width:480px)" srcset="/img/about-island3-mini.jpg"
+                                            width="200" height="159">
+                                        <img src="/img/about-island3.jpg" alt="" width="308" height="245">
+                                    </picture>
+                                </a></li>
+                        </ul>
                     </div>
                 </section>
                 <section>
@@ -48,21 +56,29 @@
                     <p>В хорошую погоду оттуда можно увидеть силуэт полуострова Святой Нос, который находится в 40 км
                         от Хобоя.</p>
                     <div class="about-island-photo">
-                        <picture>
-                            <source media="(max-width:480px)" srcset="/img/about-island-mini.jpg" width="200"
-                                height="159">
-                            <img src="/img/about-island.jpg" alt="" width="308" height="245">
-                        </picture>
-                        <picture>
-                            <source media="(max-width:480px)" srcset="/img/about-island2-mini.jpg" width="200"
-                                height="159">
-                            <img src="/img/about-island2.jpg" alt="" width="308" height="245">
-                        </picture>
-                        <picture>
-                            <source media="(max-width:480px)" srcset="/img/about-island3-mini.jpg" width="200"
-                                height="159">
-                            <img src="/img/about-island3.jpg" alt="" width="308" height="245">
-                        </picture>
+                        <ul class="about-island-wrap-photo">
+                            <li><a href="#">
+                                    <picture>
+                                        <source media="(max-width:480px)" srcset="/img/about-island-mini.jpg"
+                                            width="200" height="159">
+                                        <img src="/img/about-island.jpg" alt="" width="308" height="245">
+                                    </picture>
+                                </a></li>
+                            <li><a href="#">
+                                    <picture>
+                                        <source media="(max-width:480px)" srcset="/img/about-island2-mini.jpg"
+                                            width="200" height="159">
+                                        <img src="/img/about-island2.jpg" alt="" width="308" height="245">
+                                    </picture>
+                                </a></li>
+                            <li><a href="#">
+                                    <picture>
+                                        <source media="(max-width:480px)" srcset="/img/about-island3-mini.jpg"
+                                            width="200" height="159">
+                                        <img src="/img/about-island3.jpg" alt="" width="308" height="245">
+                                    </picture>
+                                </a></li>
+                        </ul>
                     </div>
                 </section>
                 <section>
@@ -77,21 +93,29 @@
                         огромной каменной глыбой.
                     </p>
                     <div class="about-island-photo">
-                        <picture>
-                            <source media="(max-width:480px)" srcset="/img/about-island-mini.jpg" width="200"
-                                height="159">
-                            <img src="/img/about-island.jpg" alt="" width="308" height="245">
-                        </picture>
-                        <picture>
-                            <source media="(max-width:480px)" srcset="/img/about-island2-mini.jpg" width="200"
-                                height="159">
-                            <img src="/img/about-island2.jpg" alt="" width="308" height="245">
-                        </picture>
-                        <picture>
-                            <source media="(max-width:480px)" srcset="/img/about-island3-mini.jpg" width="200"
-                                height="159">
-                            <img src="/img/about-island3.jpg" alt="" width="308" height="245">
-                        </picture>
+                        <ul class="about-island-wrap-photo">
+                            <li><a href="#">
+                                    <picture>
+                                        <source media="(max-width:480px)" srcset="/img/about-island-mini.jpg"
+                                            width="200" height="159">
+                                        <img src="/img/about-island.jpg" alt="" width="308" height="245">
+                                    </picture>
+                                </a></li>
+                            <li><a href="#">
+                                    <picture>
+                                        <source media="(max-width:480px)" srcset="/img/about-island2-mini.jpg"
+                                            width="200" height="159">
+                                        <img src="/img/about-island2.jpg" alt="" width="308" height="245">
+                                    </picture>
+                                </a></li>
+                            <li><a href="#">
+                                    <picture>
+                                        <source media="(max-width:480px)" srcset="/img/about-island3-mini.jpg"
+                                            width="200" height="159">
+                                        <img src="/img/about-island3.jpg" alt="" width="308" height="245">
+                                    </picture>
+                                </a></li>
+                        </ul>
                     </div>
                 </section>
             </article>

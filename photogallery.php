@@ -12,7 +12,88 @@
                     <h3>Домики</h3>
                     <p>Съемка делалась в день открытия сезона. Был прекрасный жаркий день.</p>
                     <div class="gallery-wrap">
-
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="max-width: 480px" srcset="">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="max-width: 480px" srcset="">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="max-width: 480px" srcset="">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="max-width: 480px" srcset="">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="max-width: 480px" srcset="">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="max-width: 480px" srcset="">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="max-width: 480px" srcset="">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="max-width: 480px" srcset="">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="max-width: 480px" srcset="">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="max-width: 480px" srcset="">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </section>
                 <section>

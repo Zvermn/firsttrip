@@ -1,0 +1,17 @@
+.photo-gallery {
+    padding-left: 110px;
+}
+
+.gallery-wrap ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gallery-wrap ul li {
+    display: inline;
+}
+
+.gallery-wrap img {
+    width: unset;
+    padding: 0 10px 10px 0;
+}

@@ -339,16 +339,16 @@
         padding: 10px;
     }
 
-    .about-island-photo {
+    .about-island-wrap-photo {
         display: flex;
         flex-flow: column wrap;
     }
 
-    .about-island-photo picture:first-child {
+    .about-island-wrap-photo li:first-child {
         align-self: flex-start;
     }
 
-    .about-island-photo picture:last-child {
+    .about-island-photo li:last-child {
         align-self: flex-end;
     }
 }

@@ -21,11 +21,13 @@
                     </ul>
                     <div class="excursions-block-photo">
                         <div class="block-photo-img">
-                            <img src="/img/excursion1.jpg" alt="" class="excursion-img">
-                            <img src="/img/excursion2.jpg" alt="" class="excursion-img">
-                            <img src="/img/excursion3.jpg" alt="" class="excursion-img">
-                            <img src="/img/excursion4.jpg" alt="" class="excursion-img">
-                            <img src="/img/excursion5.jpg" alt="" class="excursion-img">
+                            <ul>
+                                <li><a><img src="/img/excursion1.jpg" alt="" class="excursion-img"></a></li>
+                                <li><a><img src="/img/excursion2.jpg" alt="" class="excursion-img"></a></li>
+                                <li><a><img src="/img/excursion3.jpg" alt="" class="excursion-img"></a></li>
+                                <li><a><img src="/img/excursion4.jpg" alt="" class="excursion-img"></a></li>
+                                <li><a><img src="/img/excursion5.jpg" alt="" class="excursion-img"></a></li>
+                            </ul>
                         </div>
                         <div class="block-photo-link">
                             <a href="/photogallery.php" class="excursions-photo-link">Смотреть больше фотографий</a>
