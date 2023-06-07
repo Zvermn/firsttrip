@@ -1,0 +1,34 @@
+.living-conditions {
+    padding-left: 110px;
+
+    p {
+        max-width: 750px;
+
+    }
+
+    .photo-wrap {
+        display: flex;
+        flex-flow: row wrap;
+
+        picture {
+            flex: 1 1;
+
+            img {
+                object-fit: cover;
+                width: unset;
+            }
+        }
+
+        ul {
+            flex: 1 1;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        ul>li img {
+            object-fit: cover;
+            width: unset;
+        }
+
+    }
+}

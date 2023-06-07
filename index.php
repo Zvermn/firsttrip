@@ -98,7 +98,7 @@
                             <img src="/img/table-min.jpg" alt="Домики" width="153px" height="136px">
                         </div>
                     </div>
-                    <a href="#" class="living-house-link">Узнать подробности</a>
+                    <a href="/living-conditions.php" class="living-house-link">Узнать подробности</a>
                 </section>
                 <section class="reviews">
                     <h2>Отзывы</h2>

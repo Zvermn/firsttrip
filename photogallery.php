@@ -16,7 +16,7 @@
                             <li>
                                 <a href="">
                                     <picture>
-                                        <source media="max-width: 480px" srcset="">
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
                                         <img src="/img/photo-gallery-img.jpg" alt="">
                                     </picture>
                                 </a>
@@ -24,7 +24,7 @@
                             <li>
                                 <a href="">
                                     <picture>
-                                        <source media="max-width: 480px" srcset="">
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
                                         <img src="/img/photo-gallery-img.jpg" alt="">
                                     </picture>
                                 </a>
@@ -32,7 +32,7 @@
                             <li>
                                 <a href="">
                                     <picture>
-                                        <source media="max-width: 480px" srcset="">
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
                                         <img src="/img/photo-gallery-img.jpg" alt="">
                                     </picture>
                                 </a>
@@ -40,7 +40,7 @@
                             <li>
                                 <a href="">
                                     <picture>
-                                        <source media="max-width: 480px" srcset="">
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
                                         <img src="/img/photo-gallery-img.jpg" alt="">
                                     </picture>
                                 </a>
@@ -48,7 +48,7 @@
                             <li>
                                 <a href="">
                                     <picture>
-                                        <source media="max-width: 480px" srcset="">
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
                                         <img src="/img/photo-gallery-img.jpg" alt="">
                                     </picture>
                                 </a>
@@ -56,7 +56,7 @@
                             <li>
                                 <a href="">
                                     <picture>
-                                        <source media="max-width: 480px" srcset="">
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
                                         <img src="/img/photo-gallery-img.jpg" alt="">
                                     </picture>
                                 </a>
@@ -64,7 +64,7 @@
                             <li>
                                 <a href="">
                                     <picture>
-                                        <source media="max-width: 480px" srcset="">
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
                                         <img src="/img/photo-gallery-img.jpg" alt="">
                                     </picture>
                                 </a>
@@ -72,7 +72,7 @@
                             <li>
                                 <a href="">
                                     <picture>
-                                        <source media="max-width: 480px" srcset="">
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
                                         <img src="/img/photo-gallery-img.jpg" alt="">
                                     </picture>
                                 </a>
@@ -80,7 +80,7 @@
                             <li>
                                 <a href="">
                                     <picture>
-                                        <source media="max-width: 480px" srcset="">
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
                                         <img src="/img/photo-gallery-img.jpg" alt="">
                                     </picture>
                                 </a>
@@ -88,7 +88,7 @@
                             <li>
                                 <a href="">
                                     <picture>
-                                        <source media="max-width: 480px" srcset="">
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
                                         <img src="/img/photo-gallery-img.jpg" alt="">
                                     </picture>
                                 </a>
@@ -100,6 +100,90 @@
                     <h3>Вид с высоты птичего полёта</h3>
                     <p>Немного полетали на вертолёте и сделали несколько снимков из кабины пилота. На фото вы можете
                         увидить наш базу отдых целиком. Справа столовая, слева волейбольная площадка.</p>
+                    <div class="gallery-wrap">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <picture>
+                                        <source media="(max-width: 480px)" srcset="/img/photo-gallery-img-mini.jpg">
+                                        <img src="/img/photo-gallery-img.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </section>
             </article>
         </main>

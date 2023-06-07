@@ -16,7 +16,7 @@
                 <li><a href="/index.php">О базе отдыха</a></li>
                 <li><a href="/actions.php">События</a></li>
                 <li><a href="/fun.php">Развлечения</a></li>
-                <li>Условия проживания</li>
+                <li><a href="/living-conditions.php">Условия проживания</a></li>
                 <li><a href="/howtoget.php">Как добраться</a></li>
                 <li><a href="/contacts.php">Контакты</a></li>
             </ul>

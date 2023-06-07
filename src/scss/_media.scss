@@ -81,7 +81,8 @@
     .contacts,
     .excellent,
     .about-island,
-    .how-to-get {
+    .how-to-get,
+    .photo-gallery {
         padding-left: unset;
     }
 
@@ -197,6 +198,11 @@
                 padding-right: unset;
             }
         }
+    }
+
+    header {
+        margin-top: unset;
+
     }
 
 }
@@ -350,6 +356,10 @@
 
     .about-island-photo li:last-child {
         align-self: flex-end;
+    }
+
+    .gallery-wrap ul {
+        justify-content: center;
     }
 }
 
