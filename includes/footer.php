@@ -11,7 +11,7 @@
         <div class="footer-content-base">
             <h4 class="footer-title">База отдыха:</h4>
             <ul class="footer-base-list">
-                <li class="base-list-item"><a href="#">Стоимость</a></li>
+                <li class="base-list-item"><a href="/cost.php">Стоимость</a></li>
                 <li class="base-list-item"><a href="/photogallery.php">Фотогалерея</a></li>
                 <li class="base-list-item"><a href="#">Благодарности</a></li>
                 <li class="base-list-item"><a href="/reviews-page.php">Отзывы</a></li>

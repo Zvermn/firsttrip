@@ -3,32 +3,44 @@
 
     p {
         max-width: 750px;
-
     }
 
     .photo-wrap {
         display: flex;
-        flex-flow: row wrap;
+        margin-bottom: 50px;
+    }
 
-        picture {
-            flex: 1 1;
+    .photo-wrap-item {
+        display: flex;
+        flex-direction: column;
+
+        li {
+            flex: 1;
 
             img {
-                object-fit: cover;
-                width: unset;
+                padding: 2px;
             }
         }
-
-        ul {
-            flex: 1 1;
-            display: flex;
-            flex-flow: row wrap;
-        }
-
-        ul>li img {
-            object-fit: cover;
-            width: unset;
-        }
-
     }
+
+    .feed-list li,
+    .feed-timing li {
+        list-style-type: disc;
+        padding: 5px 0;
+    }
+
+    .feed-list li:last-child,
+    .feed-timing li:last-child {
+        margin-bottom: 50px;
+    }
+
+    .feed-list,
+    .feed-timing {
+        padding-left: 20px;
+    }
+
+    .fish {
+        margin-bottom: 50px;
+    }
+
 }

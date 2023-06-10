@@ -82,7 +82,9 @@
     .excellent,
     .about-island,
     .how-to-get,
-    .photo-gallery {
+    .photo-gallery,
+    .living-conditions,
+    .cost {
         padding-left: unset;
     }
 
@@ -360,6 +362,18 @@
 
     .gallery-wrap ul {
         justify-content: center;
+    }
+
+    .living-conditions {
+
+        .photo-wrap {
+            flex-direction: column;
+        }
+
+        .photo-wrap-item {
+            flex-direction: row;
+        }
+
     }
 }
 

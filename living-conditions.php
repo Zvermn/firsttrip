@@ -15,20 +15,18 @@
             <p>Умывальники, туалет, летний душ находятся на территории базы.
                 Можно арендовать место под палатку.</p>
             <h3>База отдыха с высоты птичеьего полёта</h3>
-            <div class="photo-wrap">
-                <picture>
-                    <source media="(max-width:480px)" srcset="">
-                    <img src="/img/living-img-base.jpg" alt="">
-                </picture>
-                <ul>
+            <ul class="photo-wrap">
+                <ul class="photo-wrap-item">
                     <li>
                         <a href="">
                             <picture>
-                                <source>
-                                <img src="/img/living-img-base2.jpg" alt="">
+                                <source media="(max-width:480px)" srcset="">
+                                <img src="/img/living-img-base.jpg" alt="">
                             </picture>
                         </a>
                     </li>
+                </ul>
+                <ul class="photo-wrap-item">
                     <li>
                         <a href="">
                             <picture>
@@ -53,6 +51,8 @@
                             </picture>
                         </a>
                     </li>
+                </ul>
+                <ul class="photo-wrap-item">
                     <li>
                         <a href="">
                             <picture>
@@ -69,11 +69,19 @@
                             </picture>
                         </a>
                     </li>
+                    <li>
+                        <a href="">
+                            <picture>
+                                <source>
+                                <img src="/img/living-img-base2.jpg" alt="">
+                            </picture>
+                        </a>
+                    </li>
                 </ul>
-            </div>
+            </ul>
             <h3>Питание</h3>
             <p>Питание: по желанию</p>
-            <ul>
+            <ul class="feed-list">
                 <li>в столовой</li>
                 <li>самостоятельное приготовление пищи в оборудованной электрическими плитами кухне.</li>
             </ul>
@@ -82,9 +90,9 @@
             <p>Меню столовой очень разнообразно: каши, супы, мясные горячие и холодные блюда, овощные закуски и гарниры,
                 салаты, компоты, морсы, свежая выпечка. Блюда из байкальской рыбы, а именно: из омуля, хариуса, сига.
             </p>
-            <img src="/img/living-img-fish.jpg" alt="Рыба сушится">
+            <img src="/img/living-img-fish.jpg" alt="Рыба сушится" class="fish">
             <p>Расписание столовой:</p>
-            <ul>
+            <ul class="feed-timing">
                 <li>Завтрак — с 8:00 до 10:00</li>
                 <li>Обед — 12:00 до 14:00</li>
                 <li>Ужин — 18:00 до 20:00</li>
