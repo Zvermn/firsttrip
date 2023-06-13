@@ -1,9 +1,13 @@
 // подстановка h1 в title
+
 let h2 = document.getElementById('h2');
-let h2Text = h2.innerText;
-let title = document.getElementById('title');
-title.innerHTML = h2Text;
-console.log(title);
+if (h2) {
+    let h2Text = h2.innerText;
+    let title = document.getElementById('title');
+    title.innerHTML = h2Text;
+    console.log(title);
+}
+
 // *********
 let openPopUpButtons = document.querySelectorAll('.open-pop-up');
 console.log(openPopUpButtons);
