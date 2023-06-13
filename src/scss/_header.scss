@@ -4,9 +4,13 @@ header {
     margin-top: 100px;
     margin-bottom: 60px;
 
-    .header-content-wrap {
-        padding: 0 0 20px 0;
+    .header-menu-list {
+        .active {
+            border-bottom: 10px solid #00C2DD;
+        }
     }
+
+
 
     .header-top-content {
         display: flex;

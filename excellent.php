@@ -18,6 +18,7 @@
                     <img src="/img/cat.jpg" alt="Довольный кот" width="491" height="491">
                 </picture>
             </article>
+            <?php include 'includes/popup.php';?>
         </main>
         <?php include 'includes/footer.php';?>
     </div>

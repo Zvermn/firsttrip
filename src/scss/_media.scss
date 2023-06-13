@@ -88,6 +88,21 @@
         padding-left: unset;
     }
 
+    .cost {
+
+        table {
+            tr>td:first-child {
+                width: 60%;
+            }
+        }
+
+        table.cost-living-table tr>td {
+            width: unset;
+        }
+
+
+    }
+
     .review-item-text {
         margin-left: 0;
     }
@@ -98,6 +113,12 @@
         img {
             padding: 15px;
         }
+    }
+
+    .review-photo,
+    .thanks-photo {
+        text-align: center;
+
     }
 
 }
@@ -207,6 +228,24 @@
 
     }
 
+    .cost {
+        padding-left: unset;
+
+        table {
+            tr>td:first-child {
+                width: 70%;
+            }
+        }
+
+        table.cost-living-table tr>td {
+            width: unset;
+        }
+    }
+
+    .gallery-wrap ul {
+        justify-content: center;
+    }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -223,6 +262,9 @@
         margin-bottom: 20px;
     }
 
+    .news-content {
+        padding-left: unset;
+    }
 
 }
 
@@ -230,6 +272,20 @@
     .living-house {
         margin-bottom: 100px;
     }
+
+    .about {
+        .wellcome {
+            .wellcome-content {
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .wellcome-text {
+                    padding-right: unset;
+                }
+            }
+        }
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -276,11 +332,11 @@
     }
 
     .reviews .reviews-link {
-        padding: 15px 40px;
+        padding: 15px 200px;
     }
 
     .living-house .living-house-link {
-        padding: 15px 40px;
+        padding: 15px 30px;
     }
 
     .reviews-list .reviews-item p {
@@ -290,6 +346,7 @@
     .date-action {
         order: 0;
         flex-basis: 100%;
+        text-align: center;
     }
 
     .action-title {
@@ -327,6 +384,16 @@
         float: unset;
         padding-left: 0;
         margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .subtitle {
+        margin-bottom: 40px;
+    }
+
+    .some-action p,
+    .some-news p {
+        margin-bottom: 30px;
     }
 
     .review-item {

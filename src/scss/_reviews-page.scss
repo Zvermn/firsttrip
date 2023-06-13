@@ -51,7 +51,7 @@
     padding: 0 10px 10px 0;
 }
 
-.review-photo,
-.thanks-photo {
-    text-align: center;
+.review-photo li,
+.thanks-photo li {
+    display: inline;
 }

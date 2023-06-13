@@ -22,8 +22,9 @@
 }
 
 .weather-bar {
-    width: 312px;
-    height: 241px;
+    flex-shrink: 0;
+    width: 200px;
+    height: 201px;
     border: 1px solid black;
     display: inline-block;
     align-self: center;

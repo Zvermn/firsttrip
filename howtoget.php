@@ -7,7 +7,7 @@
         <?php include 'includes/header.php';?>
         <main>
             <article class="how-to-get">
-                <h2>Как добраться</h2>
+                <h2 id="h2">Как добраться</h2>
                 <section>
                     <h3>Как добраться до базы отдыха Первая Экспедиция</h3>
                     <p>Точный адрес расположения базы отдыха:
@@ -51,7 +51,7 @@
                     <h3>Схема проезда до острова Ольхон</h3>
                     <div class="how-to-get-map"></div>
                 </section>
-                <section>
+                <section id="timing">
                     <h3>Расписание парома</h3>
                     <ol>
                         <li>Паром «Ольхонские ворота»</li>
@@ -60,6 +60,7 @@
                     </ol>
                 </section>
             </article>
+            <?php include 'includes/popup.php';?>
         </main>
         <?php include 'includes/footer.php';?>
     </div>

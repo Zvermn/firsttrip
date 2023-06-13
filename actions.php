@@ -7,7 +7,7 @@
         <?php include 'includes/header.php';?>
         <main>
             <article class="actions">
-                <h2>События</h2>
+                <h2 id="h2">События</h2>
                 <ul class="action-list">
                     <li>
                         <a href="/some-action.php" class="action-item">
@@ -63,6 +63,7 @@
                     <li class="pagination-item"><a href="#" class="pagination-link">></a></li>
                 </ol>
             </article>
+            <?php include 'includes/popup.php';?>
         </main>
         <?php include 'includes/footer.php';?>
     </div>

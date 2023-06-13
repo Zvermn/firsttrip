@@ -7,7 +7,7 @@
         <?php include 'includes/header.php';?>
         <main>
             <article class="news">
-                <h2>Новости</h2>
+                <h2 id="h2">Новости</h2>
                 <ul class="news-list">
                     <li>
                         <a class="news-item" href="/some-news.php">
@@ -83,6 +83,7 @@
                     <li class="pagination-item news"><a href="#" class="pagination-link">></a></li>
                 </ol>
             </article>
+            <?php include 'includes/popup.php';?>
         </main>
         <?php include 'includes/footer.php';?>
     </div>

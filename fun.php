@@ -7,7 +7,7 @@
         <?php include 'includes/header.php';?>
         <main>
             <article class="fun">
-                <h2>Отдых и развлечния</h2>
+                <h2 id="h2">Отдых и развлечния</h2>
                 <section class="excursions">
                     <h3>Экскурсии</h3>
                     <p>Более 30 мастер-классов пройдут во время арт-фестиваля «Baikal Live», который состоится 24-26
@@ -21,12 +21,27 @@
                     </ul>
                     <div class="excursions-block-photo">
                         <div class="block-photo-img">
-                            <ul>
-                                <li><a><img src="/img/excursion1.jpg" alt="" class="excursion-img"></a></li>
-                                <li><a><img src="/img/excursion2.jpg" alt="" class="excursion-img"></a></li>
-                                <li><a><img src="/img/excursion3.jpg" alt="" class="excursion-img"></a></li>
-                                <li><a><img src="/img/excursion4.jpg" alt="" class="excursion-img"></a></li>
-                                <li><a><img src="/img/excursion5.jpg" alt="" class="excursion-img"></a></li>
+                            <ul class="gallery">
+                                <li>
+                                    <a href="#" data-fancybox="gallery">
+                                        <img src="/img/excursion1.jpg" alt="" class="excursion-img">
+                                    </a></li>
+                                <li>
+                                    <a href="#" data-fancybox="gallery">
+                                        <img src="/img/excursion2.jpg" alt="" class="excursion-img">
+                                    </a></li>
+                                <li>
+                                    <a href="#" data-fancybox="gallery">
+                                        <img src="/img/excursion3.jpg" alt="" class="excursion-img">
+                                    </a></li>
+                                <li>
+                                    <a href="#" data-fancybox="gallery">
+                                        <img src="/img/excursion4.jpg" alt="" class="excursion-img">
+                                    </a></li>
+                                <li>
+                                    <a href="#" data-fancybox="gallery">
+                                        <img src="/img/excursion5.jpg" alt="" class="excursion-img">
+                                    </a></li>
                             </ul>
                         </div>
                         <div class="block-photo-link">
@@ -45,12 +60,15 @@
                         фестиваля. Все три дня его гости смогут не только слушать превосходную музыку, но и заниматься
                         интересными делами.</p>
                 </section>
-                <input type="submit" value="Бронировать" class="input-popap">
+                <input type="submit" value="Бронировать" class="input-popap open-pop-up">
             </article>
+            <?php include 'includes/popup.php';?>
         </main>
         <?php include 'includes/footer.php';?>
     </div>
     <script src="/js/app.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
 </body>
 
 </html>

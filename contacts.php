@@ -7,7 +7,7 @@
         <?php include 'includes/header.php';?>
         <main>
             <article class="contacts">
-                <h2>Контакты</h2>
+                <h2 id="h2">Контакты</h2>
                 <p>Местонахождение: Иркутская обл., Ольхонский р-он, о. Ольхон, база отдыха Первая Экспедиция (между
                     поселками Хужир и Харанцы).</p>
                 <span>Адрес офиса: г. Иркутск, ул. Седова, 48, офис 406.</span>
@@ -20,9 +20,9 @@
                 <span>Сайт: <a href="http://olkhon-tour.ru" class="contacts-site-link">www.olkhon-tour.ru</a></span>
                 <p>Заявку на бронирование можете отправить на наш электронный адрес, оформить по контактным телефонам
                     или через форму на сайте.</p>
-                <input type="submit" value="Бронировать" class="input-popap">
+                <input type="submit" value="Бронировать" class="input-popap open-pop-up">
             </article>
-
+            <?php include 'includes/popup.php';?>
         </main>
         <?php include 'includes/footer.php';?>
     </div>

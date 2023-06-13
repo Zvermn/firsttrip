@@ -13,6 +13,8 @@
         flex-flow: row wrap;
         justify-content: space-between;
         margin-bottom: 100px;
+
+
     }
 
     .living-house-content.text-about-photo {
@@ -30,4 +32,12 @@
         padding-bottom: 5px;
     }
 
+    .living-house-img-block li {
+        display: inline;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .living-house-img-block li:hover:focus {
+        scale: 1.2;
+    }
 }

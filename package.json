@@ -1,0 +1,24 @@
+{
+  "name": "firsttrip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zvermn/firsttrip.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zvermn/firsttrip/issues"
+  },
+  "homepage": "https://github.com/Zvermn/firsttrip#readme",
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "jquery": "^3.7.0"
+  }
+}

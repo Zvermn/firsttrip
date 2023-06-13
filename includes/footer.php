@@ -13,7 +13,7 @@
             <ul class="footer-base-list">
                 <li class="base-list-item"><a href="/cost.php">Стоимость</a></li>
                 <li class="base-list-item"><a href="/photogallery.php">Фотогалерея</a></li>
-                <li class="base-list-item"><a href="#">Благодарности</a></li>
+                <li class="base-list-item"><a href="/reviews-page.php#thanks">Благодарности</a></li>
                 <li class="base-list-item"><a href="/reviews-page.php">Отзывы</a></li>
             </ul>
         </div>
@@ -21,7 +21,7 @@
             <h4 class="footer-title">Информация:</h4>
             <ul class="footer-content-info-list">
                 <li class="content-info-list-item"><a href="/island.php">Об Ольхоне</a></li>
-                <li class="content-info-list-item"><a href="#">Расписание парома</a></li>
+                <li class="content-info-list-item"><a href="/howtoget.php#timing">Расписание парома</a></li>
                 <li class="content-info-list-item"><a href="/news.php">Новости</a></li>
             </ul>
         </div>

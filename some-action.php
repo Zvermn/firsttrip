@@ -15,7 +15,7 @@
                     <source media="(max-width: 768px)" srcset="/img/trip-mini.jpg" width="185px" height="278px">
                     <img src="/img/trip.jpg" alt="" width="310px" height="420px" class="some-action-img">
                 </picture>
-                <h2>Дети против родителей</h2>
+                <h2 id="h2">Дети против родителей</h2>
                 <span class="subtitle">Семейное соревновательное мероприятие на берегу Байкала</span>
                 <!-- <section class="what-waiting-us"> -->
                     <h3>Что нас ждёт?</h3>
@@ -38,8 +38,9 @@
                         фестиваля. Все три дня его гости смогут не только слушать превосходную музыку, но и заниматься
                         интересными делами.</p>
                 <!-- </section> -->
-                <input type="submit" value="Бронировать" class="input-popap">
+                <input type="submit" value="Бронировать" class="input-popap open-pop-up">
             </article>
+            <?php include 'includes/popup.php';?>
         </main>
         <?php include 'includes/footer.php';?>
     </div>

@@ -7,7 +7,7 @@
         <?php include 'includes/header.php';?>
         <main>
             <article class="about-island">
-                <h2 class="about-island-title">Достопримечательности острова Ольхон</h2>
+                <h2 class="about-island-title" id="h2">Достопримечательности острова Ольхон</h2>
                 <section>
                     <h3>Мыс Бурхан</h3>
                     <p>Мыс Бурхан – главная достопримечательность острова имеет статус государственного
@@ -18,22 +18,22 @@
                         западной. Около Шаманской пещеры на скалах сохранились древние надписи на тибетском и
                         монгольском языках.</p>
                     <div class="about-island-photo">
-                        <ul class="about-island-wrap-photo">
-                            <li><a href="#">
+                        <ul class="about-island-wrap-photo gallery">
+                            <li><a href="#" data-fancybox="gallery">
                                     <picture>
                                         <source media="(max-width:480px)" srcset="/img/about-island-mini.jpg"
                                             width="200" height="159">
                                         <img src="/img/about-island.jpg" alt="" width="308" height="245">
                                     </picture>
                                 </a></li>
-                            <li><a href="#">
+                            <li><a href="#" data-fancybox="gallery">
                                     <picture>
                                         <source media="(max-width:480px)" srcset="/img/about-island2-mini.jpg"
                                             width="200" height="159">
                                         <img src="/img/about-island2.jpg" alt="" width="308" height="245">
                                     </picture>
                                 </a></li>
-                            <li><a href="#">
+                            <li><a href="#" data-fancybox="gallery">
                                     <picture>
                                         <source media="(max-width:480px)" srcset="/img/about-island3-mini.jpg"
                                             width="200" height="159">
@@ -56,22 +56,22 @@
                     <p>В хорошую погоду оттуда можно увидеть силуэт полуострова Святой Нос, который находится в 40 км
                         от Хобоя.</p>
                     <div class="about-island-photo">
-                        <ul class="about-island-wrap-photo">
-                            <li><a href="#">
+                        <ul class="about-island-wrap-photo gallery">
+                            <li><a href="#" data-fancybox="gallery">
                                     <picture>
                                         <source media="(max-width:480px)" srcset="/img/about-island-mini.jpg"
                                             width="200" height="159">
                                         <img src="/img/about-island.jpg" alt="" width="308" height="245">
                                     </picture>
                                 </a></li>
-                            <li><a href="#">
+                            <li><a href="#" data-fancybox="gallery">
                                     <picture>
                                         <source media="(max-width:480px)" srcset="/img/about-island2-mini.jpg"
                                             width="200" height="159">
                                         <img src="/img/about-island2.jpg" alt="" width="308" height="245">
                                     </picture>
                                 </a></li>
-                            <li><a href="#">
+                            <li><a href="#" data-fancybox="gallery">
                                     <picture>
                                         <source media="(max-width:480px)" srcset="/img/about-island3-mini.jpg"
                                             width="200" height="159">
@@ -93,22 +93,22 @@
                         огромной каменной глыбой.
                     </p>
                     <div class="about-island-photo">
-                        <ul class="about-island-wrap-photo">
-                            <li><a href="#">
+                        <ul class="about-island-wrap-photo gallery">
+                            <li><a href="#" data-fancybox="gallery">
                                     <picture>
                                         <source media="(max-width:480px)" srcset="/img/about-island-mini.jpg"
                                             width="200" height="159">
                                         <img src="/img/about-island.jpg" alt="" width="308" height="245">
                                     </picture>
                                 </a></li>
-                            <li><a href="#">
+                            <li><a href="#" data-fancybox="gallery">
                                     <picture>
                                         <source media="(max-width:480px)" srcset="/img/about-island2-mini.jpg"
                                             width="200" height="159">
                                         <img src="/img/about-island2.jpg" alt="" width="308" height="245">
                                     </picture>
                                 </a></li>
-                            <li><a href="#">
+                            <li><a href="#" data-fancybox="gallery">
                                     <picture>
                                         <source media="(max-width:480px)" srcset="/img/about-island3-mini.jpg"
                                             width="200" height="159">
@@ -119,9 +119,12 @@
                     </div>
                 </section>
             </article>
+            <?php include 'includes/popup.php';?>
         </main>
         <?php include 'includes/footer.php';?>
     </div>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
     <script src="/js/app.js"></script>
 </body>
 

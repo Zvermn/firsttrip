@@ -87,16 +87,24 @@
                             самостоятельно изготовить шашлычок, барбекю из мяса и рыбы в мангалах, которые установлены в
                             уголках отдыха.
                         </p>
-                        <div class="living-house-img-block">
-                            <img src="/img/beach-min.jpg" alt="Домики" width="153px" height="136px">
-                            <img src="/img/meet-min.jpg" alt="Домики" width="153px" height="136px">
-                            <img src="/img/bench-min.jpg" alt="Домики" width="153px" height="136px">
-                            <img src="/img/plan-min.jpg" alt="Домики" width="153px" height="136px">
-                            <img src="/img/shish-kebab-min.jpg" alt="Домики" width="153px" height="136px">
-                            <img src="/img/table-min.jpg" alt="Домики" width="153px" height="136px">
-                            <img src="/img/table-min.jpg" alt="Домики" width="153px" height="136px">
-                            <img src="/img/table-min.jpg" alt="Домики" width="153px" height="136px">
-                        </div>
+                        <ul class="living-house-img-block gallery">
+                            <li><a href="#" data-fancybox="gallery">
+                                    <img src="/img/beach-min.jpg" alt="Домики" width="153px" height="136px"></a>
+                            <li><a href="#" data-fancybox="gallery">
+                                    <img src="/img/meet-min.jpg" alt="Домики" width="153px" height="136px"></a>
+                            <li><a href="#" data-fancybox="gallery">
+                                    <img src="/img/bench-min.jpg" alt="Домики" width="153px" height="136px"></a>
+                            <li><a href="#" data-fancybox="gallery">
+                                    <img src="/img/plan-min.jpg" alt="Домики" width="153px" height="136px"></a>
+                            <li><a href="#" data-fancybox="gallery">
+                                    <img src="/img/shish-kebab-min.jpg" alt="Домики" width="153px" height="136px"></a>
+                            <li><a href="#" data-fancybox="gallery">
+                                    <img src="/img/table-min.jpg" alt="Домики" width="153px" height="136px"></a>
+                            <li><a href="#" data-fancybox="gallery">
+                                    <img src="/img/table-min.jpg" alt="Домики" width="153px" height="136px"></a>
+                            <li><a href="#" data-fancybox="gallery">
+                                    <img src="/img/table-min.jpg" alt="Домики" width="153px" height="136px"></a>
+                        </ul>
                     </div>
                     <a href="/living-conditions.php" class="living-house-link">Узнать подробности</a>
                 </section>
@@ -122,10 +130,13 @@
                     <a href="/reviews-page.php" class="reviews-link">Смотреть книгу отзывов</a>
                 </section>
             </article>
+            <?php include 'includes/popup.php';?>
         </main>
         <?php include 'includes/footer.php';?>
     </div>
     <script src="/js/app.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
 </body>
 
 </html>
