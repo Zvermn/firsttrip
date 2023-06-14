@@ -24,10 +24,11 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    text-align: justify;
 
     .reviews-item {
         flex: 0 1 350px;
-        padding-right: 20px;
+        padding: 0 30px;
 
         p {
             font-family: 'TildaSans';

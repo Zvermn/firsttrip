@@ -49,8 +49,8 @@
                 </section>
                 <section>
                     <h3>Схема проезда до острова Ольхон</h3>
-                    <div class="how-to-get-map"></div>
-                </section>
+                    <div class="how-to-get-map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3efbae2bad669c68655193ab5ae72d944e07114c82c08ebba2d1c986b53b5f99&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>                </section>
                 <section id="timing">
                     <h3>Расписание парома</h3>
                     <ol>
