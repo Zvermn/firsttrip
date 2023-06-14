@@ -20,6 +20,14 @@
 a:focus,
 a:active {
     outline: none;
+
+}
+
+a:visited,
+a:active,
+a:hover,
+a:link {
+    color: #000;
 }
 
 nav,

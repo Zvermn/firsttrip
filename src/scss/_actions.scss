@@ -33,7 +33,18 @@
     align-items: center;
     margin-bottom: 30px;
     color: black;
+    transition: 0.5s;
 }
+
+.action-item:hover:active,
+.news-item:hover:active {
+    transform: scale(1.03);
+    background-color: #f0f0f0;
+}
+
+
+
+
 
 .action-item::after {
     content: url(/css/icon/round.png);

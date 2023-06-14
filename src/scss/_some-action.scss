@@ -34,7 +34,7 @@
 .bread-crumbs {
     margin-top: -30px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     margin-bottom: 10px;
 }
 
@@ -50,6 +50,7 @@
 
 .bread-crumbs li.active {
     color: #B4AB00;
+    word-wrap: break-word;
 }
 
 .bread-crumbs li.active::before {
