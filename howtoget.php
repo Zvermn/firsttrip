@@ -19,12 +19,13 @@
                     <p>Авиатранспортом. Ежедневные рейсы согласно расписанию авиакомпаний. Справочную сводную информацию
                         по
                         рейсам, пребывающим/выбывающим в/из г. Иркутска, можно получить на сайте Аэропорта "Иркутск"
-                        http://iktport.ru.
-                        Железнодорожным транспортом. Ежедневные маршруты поездов по расписанию ОАО "РЖД". Справочную
+                        <a href="http://iktport.ru">http://iktport.ru.</a>
+                    </p>
+                    <p>Железнодорожным транспортом. Ежедневные маршруты поездов по расписанию ОАО "РЖД". Справочную
                         сводную
                         информацию по поездам, пребывающим/выбывающим в/из г. Иркутска, можно получить на сайте ОАО
-                        "РЖД"
-                        http://rzd.ru/</p>
+                        "РЖД"<a href="http://rzd.ru">http://rzd.ru</a>
+                    </p>
                 </section>
                 <section>
                     <h3>До нашей базы из Иркутска можно добраться</h3>
@@ -50,7 +51,9 @@
                 <section>
                     <h3>Схема проезда до острова Ольхон</h3>
                     <div class="how-to-get-map">
-                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3efbae2bad669c68655193ab5ae72d944e07114c82c08ebba2d1c986b53b5f99&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>                </section>
+                        <script type="text/javascript" charset="utf-8" async
+                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3efbae2bad669c68655193ab5ae72d944e07114c82c08ebba2d1c986b53b5f99&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                </section>
                 <section id="timing">
                     <h3>Расписание парома</h3>
                     <ol>

@@ -18,15 +18,15 @@
 
 @media screen and (max-width : 1024px) {
     header {
-        .header-content-wrap {
-            padding: 0 0 20px 0;
-        }
+        // .header-content-wrap {
+        //     padding: 0 0 20px 0;
+        // }
 
         .header-menu-content {
             .header-menu-list {
 
                 li {
-                    padding: 10px 20px 10px 0;
+                    padding: 10px;
                 }
             }
         }
@@ -332,7 +332,11 @@
 
                 li {
                     text-align: unset;
+                }
 
+                li.active {
+                    text-decoration: solid 10px underline #00c2dd;
+                    border-bottom: unset;
                 }
             }
         }

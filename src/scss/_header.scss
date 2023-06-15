@@ -10,8 +10,6 @@ header {
         }
     }
 
-
-
     .header-top-content {
         display: flex;
         flex-flow: row wrap;
@@ -42,13 +40,11 @@ header {
             a {
                 color: black;
             }
-
         }
 
         .header-btn-popap {
             text-align: right;
-
-
+            margin-bottom: -10px;
         }
     }
 
@@ -63,7 +59,6 @@ header {
             a {
                 color: black;
             }
-
 
             li {
                 display: inline-block;
