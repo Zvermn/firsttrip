@@ -56,6 +56,7 @@
 
     .footer-content-wrap {
         padding-left: unset;
+        flex-wrap: wrap;
     }
 
     .footer-content-info,
@@ -107,7 +108,6 @@
             width: unset;
         }
 
-
     }
 
     .review-item-text {
@@ -125,9 +125,7 @@
     .review-photo,
     .thanks-photo {
         text-align: center;
-
     }
-
 }
 
 @media screen and (max-width: 890px) {
@@ -170,17 +168,16 @@
         margin-bottom: 35px;
     }
 
+    header .header-menu-list a {
+        font-size: 19px;
+    }
+
     .footer-title {
         flex: 1 1 100%;
     }
 
     .base-list-item {
         display: inline-block;
-    }
-
-    .block-photo-link,
-    .block-photo-img {
-        text-align: center;
     }
 
     h2 {
@@ -197,6 +194,29 @@
 
     .birdth-wrap {
         margin-bottom: 50px;
+    }
+
+    .some-action,
+    .fun,
+    .contacts,
+    .reservation,
+    .some-news {
+        text-align: center;
+    }
+
+    .some-action :not(.input-popap),
+    .fun :not(.input-popap),
+    .fun :not(.excursions-block-photo),
+    .contacts :not(.input-popap),
+    .reservation :not(.input-popap),
+    .some-news :not(.link-back-news) {
+        text-align: left;
+    }
+
+    .excursions-block-photo .block-photo-link,
+    .excursions-block-photo .block-photo-img,
+    .block-photo-img .gallery {
+        text-align: center;
     }
 
     .contacts {
@@ -240,7 +260,7 @@
 
     header {
         margin-top: unset;
-
+        padding-top: 20px;
     }
 
     .cost {
