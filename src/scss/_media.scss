@@ -297,6 +297,10 @@
         margin-bottom: 20px;
     }
 
+    .action-content {
+        padding: 0 20px;
+    }
+
     .news-content {
         padding-left: unset;
     }
@@ -338,6 +342,11 @@
         .header-menu-content {
             .header-menu-list {
                 justify-content: center;
+
+                li.active {
+                    text-decoration: solid 10px underline #00c2dd;
+                    border-bottom: unset;
+                }
             }
         }
     }
@@ -354,10 +363,10 @@
                     text-align: unset;
                 }
 
-                li.active {
-                    text-decoration: solid 10px underline #00c2dd;
-                    border-bottom: unset;
-                }
+                // li.active {
+                //     text-decoration: solid 10px underline #00c2dd;
+                //     border-bottom: unset;
+                // }
             }
         }
     }
@@ -371,11 +380,11 @@
     }
 
     .reviews .reviews-link {
-        padding: 15px 20px;
+        padding: 10px 20px;
     }
 
     .living-house .living-house-link {
-        padding: 15px 30px;
+        padding: 10px 30px;
     }
 
     .reviews-list .reviews-item p {

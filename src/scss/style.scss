@@ -107,6 +107,13 @@ section {
     display: inline-block;
 }
 
+.input-popap:hover,
+.link-back-news:hover,
+.reviews .reviews-link:hover,
+.living-house .living-house-link:hover {
+    background-color: #cec400;
+}
+
 .birdth-wrap {
     position: relative;
     margin-bottom: 100px;

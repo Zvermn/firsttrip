@@ -10,8 +10,6 @@ if (h2) {
 
 // *********
 let openPopUpButtons = document.querySelectorAll('.open-pop-up');
-console.log(openPopUpButtons);
-
 let popUp = document.querySelector('.pop-up');
 let popupBg = document.querySelector('.pop-up-bg');
 let closePopupButton = document.querySelector('.close-form');
@@ -124,3 +122,36 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 // ****************************************
 
+// условия проверки полей ввода телефона и согласия
+let btnSend = document.querySelector(".btn-send")
+let inputAgreement = document.querySelector(".agreement-checkbox")
+let inpTel = document.querySelector(".inp-tel")
+
+inpTel.addEventListener("keyup", saveTelNumber)
+inputAgreement.addEventListener("click", toglAgreement)
+function toglAgreement() {
+    if (inputAgreement.value == 0) {
+        inputAgreement.setAttribute('value', 1)
+        checked()
+    } else {
+        inputAgreement.setAttribute('value', 0)
+        checked()
+    }
+}
+function checked() {
+    console.log(inputAgreement.value)
+    if ((inputAgreement.value == 1) && (telNumber.length == 11)) {
+        btnSend.classList.add('active')
+    } else {
+        btnSend.classList.remove('active')
+    }
+}
+let telNumber = []
+function saveTelNumber() {
+    let = telInputValue = inpTel.value.split("")
+    telNumber = telInputValue.filter(item => (Number(item)) || (item === "0"));
+    if (telNumber.length == 11) {
+        console.log(telNumber);
+    }
+    checked()
+}

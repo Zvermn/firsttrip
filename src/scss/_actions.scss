@@ -36,8 +36,8 @@
     transition: 0.5s;
 }
 
-.action-item:hover:active,
-.news-item:hover:active {
+.action-item:hover,
+.news-item:hover {
     transform: scale(1.03);
     background-color: #f0f0f0;
 }
@@ -96,7 +96,7 @@
     width: 30px;
     height: 30px;
     margin-right: 20px;
-    padding: 6px;
+    padding: 3px 6px 6px 6px;
     text-align: center;
     background-color: #00C2DD;
     border-radius: 3px;
