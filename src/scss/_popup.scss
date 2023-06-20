@@ -12,7 +12,7 @@
     // transform: translateY(50%) scale(0);
     background: #ffffff;
     z-index: 10;
-    max-height: 600px;
+    max-height: 610px;
     height: 100%;
     position: absolute;
     border-radius: 6px;
@@ -33,7 +33,6 @@
     font-weight: 400;
     font-size: 1rem;
     font-style: normal;
-    color: #828282;
 }
 
 .open-pop-up:hover,
@@ -111,11 +110,12 @@
 
 .pop-up .pop-up-wrap .inp-vol,
 .pop-up .pop-up-wrap .inp-email {
-    display: inline;
+    display: block;
     max-width: 170px;
     width: 100%;
     margin-bottom: 20px;
     background-color: #ffffff;
+    flex: 1 0;
 }
 
 input:-webkit-autofill {
@@ -131,7 +131,6 @@ input:-webkit-autofill {
 .agreement-checkbox+label {
     background-image: url(/css/icon/check-box-no.svg);
     background-repeat: no-repeat;
-    // background-size: 20px 20px;
     background-position: 0px 2px;
     color: #888;
     display: block;
@@ -159,6 +158,11 @@ input:-webkit-autofill {
 .label-food {
     margin-bottom: 40px;
 }
+
+.label-agreement {
+    margin-bottom: 15px;
+}
+
 
 .pop-up .pop-up-wrap .btn-send.active {
     background-color: black;

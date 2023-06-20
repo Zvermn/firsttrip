@@ -17,7 +17,7 @@
                 <label for="food-checkbox" class="label-food"><span class="food-checkbox-text">Бронировать с
                         питанием</span></label>
                 <input type="checkbox" name="agreement" value="0" id="agreement-checkbox" class="agreement-checkbox">
-                <label for="agreement-checkbox"><span class="agreement-checkbox-text">Согласен на обработку персональных
+                <label for="agreement-checkbox" class="label-agreement"><span class="agreement-checkbox-text">Согласен на обработку персональных
                         данных</span></label>
                 <input type="submit" value="Бронировать" class="btn-send">
                 <div class="close-form"></div>

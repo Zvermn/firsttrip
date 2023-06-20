@@ -495,8 +495,19 @@
         .photo-wrap-item {
             flex-direction: row;
         }
-
     }
+
+    .pop-up .wrap-iput {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+
+    .pop-up .pop-up-wrap .inp-vol,
+    .pop-up .pop-up-wrap .inp-email {
+        max-width: none;
+    }
+
 }
 
 @media screen and (min-width: 0) and (max-width: 380px) {
